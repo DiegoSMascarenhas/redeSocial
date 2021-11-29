@@ -1,0 +1,288 @@
+#masthead{
+  position: -webkit-sticky; /* Necessário para funcionar no Safari */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+html {
+  max-height: 100%;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+body {
+    color: rgba(0, 0, 0, 0.87);
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    padding-top: 100px;
+    margin-top: 50px;
+    max-width: 100%;
+    min-height: 400px;
+  }
+
+  .admin-page {
+    overflow: auto;
+  }
+  .container {
+    max-height: 800px;
+  }
+
+  .tabs-content-reports {
+    padding-bottom: 100px;
+  }
+
+  .report-cards {
+    max-width: 95%;
+  }
+
+  #post-0{
+    padding-top: 100px;
+  }
+  input[type="file"] {
+    display: none;
+    opacity: 0;
+}
+.photoimg{
+  width: 40px;
+}
+
+label {
+  padding: 20px 10px;
+  width: 30px;
+  background-color:transparent;
+  color: #007cff;
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+  .job_filters .search_jobs .filter_by_tag a{padding:.25em}.job_filters .search_jobs .filter_by_tag a.active{background:#ddd;text-decoration:none}
+
+  #message {
+    background: white;
+    max-width: 640px;
+    margin: 100px auto 16px;
+    padding: 32px 24px;
+    border-radius: 3px;
+  }
+
+  #message h2 {
+    color: #ffa100;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0 0 8px;
+  }
+
+  .comment{
+      border: #fff;
+
+  }
+
+  .comment-buttons{
+      background-color: transparent;
+  }
+
+  .btn-media{
+      background-color: transparent;
+      border: transparent;
+  }
+
+  .perfil-name{
+      font-size: large;
+      font-weight: bold;
+      align-items: center;
+      text-align: center;
+  }
+
+  .perfil-photo{
+      border-radius: 35px;
+      width: 50px;
+      height: 50px;
+  }
+
+  #message h1 {
+    font-size: 22px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.6);
+    margin: 0 0 16px;
+  }
+
+  #message p {
+    line-height: 140%;
+    margin: 16px 0 24px;
+    font-size: 14px;
+  }
+
+  #message a {
+    display: block;
+    text-align: center;
+    background: #039be5;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    padding: 16px;
+    border-radius: 4px;
+  }
+
+  #message,
+  #message a {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  }
+
+  #load {
+    color: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    font-size: 13px;
+  }
+
+  @media (max-width: 600px) {
+
+    body,
+    #message {
+      margin-top: 0;
+      background: white;
+      box-shadow: none;
+    }
+  }
+
+  .ac-input {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    border-color: lightgray;
+  }
+
+  .is-transparent {
+    background-color: transparent !important;
+}
+.body-login {
+  background-color:  #0b0c0c;
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+}
+
+.login-rede-social {
+  display: block;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-login{
+  display: block;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-login{
+  border: 1px solid #6c49bb;
+  border-radius: 28px;
+  height:auto;
+  width: 300px;
+  display: block;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+.user-login{
+  margin-top:30px;
+  margin-left: 5%;
+  width: 250px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.password-login{
+  margin-top: 30px;
+  margin-left: 5%;
+  width: 250px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.user-events{
+  margin-top:30px;
+  margin-left: 5%;
+  width: 250px;
+  border-radius: 10px;
+}
+
+.user-type{
+  margin-top:30px;
+  margin-left: 5%;
+  width: 250px;
+  border-radius: 10px;
+}
+.events-label {
+  color: white;
+  font-size: small;
+  width: 250px;
+  margin-top: -10px;
+  text-transform: none;
+  text-align: left;
+  padding-left: 15px;
+  line-height: normal;
+}
+
+
+.btn-login{
+  margin-top:10%;
+  margin-left: 15%;
+  margin-bottom: 10%;
+  color: #fff;
+  text-align: center;
+  border: 1px solid #fff;
+  height: 40px;
+  width: 200px;
+  background-image: linear-gradient(#b329f8, #6c49bb);
+}
+
+.erro-login{
+  margin-left: 5%;
+  color: #fff;
+  font-weight: 700;
+}
+
+.header-admin{
+  display: flex;
+}
+
+.logout{
+  float: right;
+  position:absolute;
+  margin-left: 85%;
+}
+
+.user-actions {
+  float: right;
+  min-width: 100px;
+  right: 1%;
+  top: 1%;
+  padding-right: 10px;
+}
+
+.user-actions button {
+  width: 90%;
+  margin-top: 20px;
+  box-shadow: 2px 01px 3px #c1d1d1;
+}
+
+.notification-badge {
+  color: gray;
+}
+
+.badge-mobile {
+  margin-top: 20px;
+}
+
+.badge-desktop {
+  margin-left: -6px;
+}
